@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow: hidden;
+  touch-action: manipulation;
+  user-select: none;
+  background: black;
+}
