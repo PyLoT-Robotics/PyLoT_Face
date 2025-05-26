@@ -14,10 +14,16 @@
     </DialogPanel>
   </Dialog>
 </template>
+
 <script setup lang="ts">
+import { Dialog } from '@headlessui/vue'
+
 const isOpen = defineModel<boolean>("open", { required: true })
 
 defineProps<{
   title: string
 }>()
+
+const DialogPanel = Dialog.Panel
 </script>
+

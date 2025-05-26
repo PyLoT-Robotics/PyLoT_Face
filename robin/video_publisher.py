@@ -6,7 +6,7 @@ import cv2
 from cv_bridge import CvBridge
 import base64
 
-IMAGE_SUBSCRIBE_TOPIC_NAME = '/camera/color/image_raw'
+IMAGE_SUBSCRIBE_TOPIC_NAME = 'face'
 
 class VideoPublisher(Node):
     def __init__(self):
