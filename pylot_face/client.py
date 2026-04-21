@@ -8,8 +8,7 @@ import os
 package_name = "pylot_face"
 package_dir = get_package_share_directory(package_name)
 
-#client_dir = os.path.normpath(os.path.join(package_dir, "../../../../", "client"))
-client_dir = os.path.expanduser('~/face/src/PyLoT-Face/client')
+client_dir = os.path.normpath(os.path.join(package_dir, "../../../../", "src/pylot_face/client"))
 
 class Client(Node):
   def __init__(self):

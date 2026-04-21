@@ -46,6 +46,7 @@ watch(() => ros, async () => {
 }, { immediate: true })
 
 function drawCameraImage(_message: RosLib.Message) {
+  console.log("draw!")
   const message = _message as Message;
   let image_data = message.data
 
