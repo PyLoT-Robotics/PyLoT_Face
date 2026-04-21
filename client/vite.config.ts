@@ -11,8 +11,8 @@ export default defineConfig({
         enabled: true
       },
       manifest: {
-        name: 'Robin',
-        short_name: 'Robin',
+        name: 'PyLoT Face',
+        short_name: 'PyLoT Face',
         theme_color: '#000000',
         background_color: '#000000',
         display: 'standalone',

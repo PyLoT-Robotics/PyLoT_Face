@@ -5,7 +5,7 @@ from ament_index_python.packages import get_package_share_directory
 import os
 
 # ROSパッケージ名を取得
-package_name = "robin"
+package_name = "pylot_face"
 package_dir = get_package_share_directory(package_name)
 
 #client_dir = os.path.normpath(os.path.join(package_dir, "../../../../", "client"))

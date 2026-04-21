@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'robin'
+package_name = 'pylot_face'
 
 setup(
     name=package_name,
@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'client = robin.client:main',
-            'video_publisher = robin.video_publisher:main'
+            'client = pylot_face.client:main',
+            'video_publisher = pylot_face.video_publisher:main'
         ],
     },
 )
